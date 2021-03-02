@@ -7,9 +7,11 @@ import java.util.ArrayList;
 
 public abstract class Piece {
 
-    private String name; //название фигуры
-    private Color color; //цвет фигуры
-    protected ArrayList<Cell> possiblemoves = new ArrayList<Cell>();
+    protected int x;
+    protected int y;
+    protected String name; //название фигуры
+    //protected Color color; //цвет фигуры
+    //protected ArrayList<Cell> possiblemoves = new ArrayList<Cell>();
 
 //get/set
     public String getName() {
@@ -20,14 +22,14 @@ public abstract class Piece {
         this.name = name;
     }
 
-    public Color getColor() {
-        return color;
-    }
+//    public Color getColor() {
+//        return color;
+//    }
 
-    public void setColor(Color color) {
-        this.color = color;
-    }
+//    public void setColor(Color color) {
+//        this.color = color;
+//    }
 
 
-    public abstract ArrayList<Cell> move(Cell pos[][], int x, int y);
+    //public abstract ArrayList<Cell> move(Cell pos[][], int x, int y);
 }

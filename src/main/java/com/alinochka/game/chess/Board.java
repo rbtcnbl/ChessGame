@@ -39,6 +39,8 @@ public class Board {
 //        if(numLine >= 1 && numLine <= 2){
 //
 //        }
+
+
             for (int v = 0; v <board_size; v++) {
                 System.out.print(vertical_simbol  + " " + pawn + " ");
             }

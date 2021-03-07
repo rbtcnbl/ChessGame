@@ -10,7 +10,7 @@ public abstract class Piece {
     protected int x;
     protected int y;
     protected String name; //название фигуры
-    //protected Color color; //цвет фигуры
+    protected Color color; //цвет фигуры
     //protected ArrayList<Cell> possiblemoves = new ArrayList<Cell>();
 
 //get/set
@@ -22,9 +22,9 @@ public abstract class Piece {
         this.name = name;
     }
 
-//    public Color getColor() {
-//        return color;
-//    }
+    public Color getColor() {
+        return color;
+    }
 
 //    public void setColor(Color color) {
 //        this.color = color;
